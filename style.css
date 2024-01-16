@@ -466,7 +466,38 @@ form > input {
   }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
+  main {
+    padding: 20px 10px;
+  }
   header{
     padding: 20px 10px ;
   }
+  .tours-img img {
+    width: 100%;
+  }
+  .tours {
+    flex-direction: column;
+  }
+  #deals-item-2 .deals {
+    bottom: -35px;
+  }
+  .deals {
+    bottom: -10px;
+    right: -359px;
+  }
+  .place-end video {
+    width: 100%;
+  }
+  .place-section {
+    flex-direction: column;
+  }
+  .discount {
+    padding: 0px 21px;
+    bottom: 104px;
+    right: 9px;
+  }
+  .footer-first {
+    width: 100%;
+  }
+
 }
