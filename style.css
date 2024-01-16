@@ -399,7 +399,7 @@ form > input {
   main {
     padding: 20px 10px;
   }
-  header{
+  header {
     padding: 20px 10px;
   }
   nav > ul {
@@ -416,14 +416,14 @@ form > input {
     margin: 0px auto;
   }
   .banner-details .div {
-    width: 100%;
-}
-  .tours-img img{
+    width: 190%;
+  }
+  .tours-img img {
     width: 100%;
   }
   .tours {
-   flex-direction: column;
-}
+    flex-direction: column;
+  }
   .destination-item-3 {
     grid-template-columns: 1fr;
   }
@@ -463,5 +463,10 @@ form > input {
   }
   .footer-first {
     width: 100%;
+  }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+  header{
+    padding: 20px 10px ;
   }
 }
